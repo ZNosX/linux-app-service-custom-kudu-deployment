@@ -1,0 +1,21 @@
+{
+    "name": "linux-app-service-custom-kudu-deployment",
+    "description": "Simple Custom Kudu Deployment under Linux App Service",
+    "version": "1.0.0",
+    "private": true,
+    "author": "Shawn Qin",
+    "scripts": {
+        "start": "node index.js",
+        "build": "echo 'It says build :D'"
+    },
+    "engines": {
+        "node": "10.14.1",
+        "npm": "6.4.1"
+    },
+    "dependencies": {
+      "body-parser": "latest",
+      "cookie-parser": "latest",
+      "debug": "latest",
+      "express": "latest"
+    }
+}
